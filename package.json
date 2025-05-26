@@ -1,0 +1,30 @@
+{
+  "name": "signalrwebpack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "[https://learn.microsoft.com/en-gb/aspnet/core/tutorials/signalr-typescript-webpack?view=aspnetcore-8.0&tabs=visual-studio-code]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development --watch",
+    "release": "webpack --mode=production",
+    "publish": "npm run release && dotnet publish -c Release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "@types/node": "^22.15.21"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "4.0.0",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "5.6.3",
+    "mini-css-extract-plugin": "2.9.2",
+    "ts-loader": "9.5.2",
+    "typescript": "5.8.3",
+    "webpack": "5.99.9",
+    "webpack-cli": "6.0.1"
+  }
+}

@@ -1,0 +1,4 @@
+bin
+obj
+src/index.js
+node_module
