@@ -1,4 +1,5 @@
 bin
 obj
 src/index.js
-node_module
+node_modules
+wwwroot
